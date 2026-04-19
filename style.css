@@ -402,6 +402,14 @@ body {
   justify-content: center;
 }
 
+.contact-section-image{
+  background-image: url("/assets/contact-sec-image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 270px;
+  width: 400px;
+}
 
 #call-to-action {
   margin: 15px;
