@@ -10,6 +10,10 @@ body {
   color: black;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   width: 100%;
   background-color: white;
@@ -44,6 +48,23 @@ body {
 
 .nav-list-item {
   padding-right: 20px;
+}
+
+.nav-list-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-list-item a:hover {
+  color: #5A45B5;
+}
+
+#about,
+#skills,
+#projects,
+#contact,
+#footer {
+  scroll-margin-top: 90px;
 }
 
 .hero-section {
@@ -341,7 +362,6 @@ body {
   right: -80px;
   margin-top: 40px;
   background-color: rgba(0, 0, 0, 0.6);
-  ;
   height: 300px;
   width: 65%;
   border-radius: 25px;
@@ -384,7 +404,7 @@ body {
 }
 
 .form-section {
-  height: 550px;
+  height: 520px;
   background-color: black;
   color: white;
   display: flex;
@@ -617,6 +637,15 @@ textarea::placeholder {
   line-height: 30px;
 }
 
+.quick-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.quick-links a:hover {
+  color: #5A45B5;
+}
+
 .connect {
   height: 200px;
   width: 300px;
@@ -649,6 +678,7 @@ textarea::placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .form-first-column .icons {
