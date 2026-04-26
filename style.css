@@ -88,7 +88,7 @@ html {
   width: 400px;
   align-self: flex-end;
   background-size: cover;
-  background-image: url("/assets/hero-section-image.png");
+  background-image: url("assets/hero-section-image.png");
   display: flex;
   justify-content: center;
   align-items: end;
@@ -195,7 +195,7 @@ html {
 #stroke-image {
   position: relative;
   bottom: 45px;
-  background-image: url("/assets/stroke.png");
+  background-image: url("assets/stroke.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 200px;
@@ -335,7 +335,7 @@ html {
   margin: 15px;
   height: 270px;
   width: 42%;
-  background-image: url("/assets//project-cover/ecommerce-backend.png");
+  background-image: url("assets//project-cover/ecommerce-backend.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -378,7 +378,7 @@ html {
   margin: 25px;
   height: 270px;
   width: 42%;
-  background-image: url("/assets//project-cover/auth-backend.png");
+  background-image: url("assets//project-cover/auth-backend.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -430,7 +430,7 @@ html {
 }
 
 .contact-section-image {
-  background-image: url("/assets/contact-sec-image.png");
+  background-image: url("assets/contact-sec-image.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
