@@ -10,6 +10,10 @@ body {
   color: black;
 }
 
+a{
+  text-decoration: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -311,7 +315,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .project-section>p {
@@ -321,7 +324,7 @@ html {
 .first-project {
   position: relative;
   left: -80px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: black;
   height: 300px;
   width: 65%;
   border-radius: 25px;
@@ -330,14 +333,17 @@ html {
 
 #project-image {
   margin: 15px;
-  background-color: white;
   height: 270px;
   width: 42%;
-  border-radius: 25px;
-  border: 1px solid black;
+  background-image: url("/assets//project-cover/ecommerce-backend.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .project-description {
+  width: 42%;
+  margin-top: 30px;
   color: white;
   display: flex;
   text-align: left;
@@ -352,8 +358,8 @@ html {
 }
 
 #project-details {
-  margin: 10px 0px 10px 0px;
-  font-size: 20px;
+  margin: 10px 0px 20px 0px;
+  font-size: 15px;
 }
 
 
@@ -361,7 +367,7 @@ html {
   position: relative;
   right: -80px;
   margin-top: 40px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: black;
   height: 300px;
   width: 65%;
   border-radius: 25px;
@@ -369,17 +375,18 @@ html {
 }
 
 #second-project-image {
-  margin: 15px;
-  background-color: white;
+  margin: 25px;
   height: 270px;
   width: 42%;
-  border-radius: 25px;
-  border: 1px solid black;
+  background-image: url("/assets//project-cover/auth-backend.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .second-project-description {
-  margin-left: 20px;
-  margin-right: 150px;
+  width: 42%;
+  margin: 70px 0px 25px 50px;
   color: white;
   display: flex;
   text-align: left;
@@ -394,8 +401,8 @@ html {
 
 
 #second-project-details {
-  margin: 10px 0px 10px 0px;
-  font-size: 20px;
+  margin: 10px 0px 20px 0px;
+  font-size: 15px;
 }
 
 
@@ -422,7 +429,7 @@ html {
   justify-content: center;
 }
 
-.contact-section-image{
+.contact-section-image {
   background-image: url("/assets/contact-sec-image.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -581,7 +588,7 @@ textarea::placeholder {
 }
 
 .second-footer {
-  width:80%;
+  width: 80%;
   height: 35px;
   border-top: 1px solid rgba(0, 0, 0, 0.6);
   font-weight: 800;
